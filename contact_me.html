@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Связаться со мной</title>
+  </head>
+  <body>
+    <header>
+      <h1>Связаться со мной</h1>
+      <p><a href="index.html">Вернуться на главную страницу</a></p>
+    </header>
+    <hr />
+
+    <main>
+      <form action="#" method="get">
+        <p>
+          <label for="surname">Фамилия:</label><br />
+          <input type="text" id="surname" autocomplete="family-name" required />
+        </p>
+
+        <p>
+          <label for="firstname">Имя:</label><br />
+          <input
+            type="text"
+            id="firstname"
+            autocomplete="given-name"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="email">Электронная почта:</label><br />
+          <input type="email" id="email" autocomplete="email" required />
+        </p>
+
+        <p>
+          <label for="phone">Номер телефона:</label><br />
+          <input type="tel" id="phone" autocomplete="tel" required />
+        </p>
+
+        <p>
+          <label>
+            <input type="radio" id="consent" required />
+            Согласен на обработку персональных данных
+          </label>
+        </p>
+
+        <p>
+          <button type="submit">Отправить</button>
+        </p>
+      </form>
+    </main>
+
+    <hr />
+    <footer>
+      <p>Лабораторная работа № 2. Таблицы и формы на HTML.</p>
+    </footer>
+  </body>
+</html>
