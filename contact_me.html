@@ -39,12 +39,15 @@
           <input type="tel" id="phone" autocomplete="tel" required />
         </p>
 
-        <p>
-          <label>
-            <input type="radio" id="consent" required />
-            Согласен на обработку персональных данных
-          </label>
-        </p>
+        <fieldset>
+          <legend>Согласие на обработку персональных данных</legend>
+
+          <input type="radio" id="yes" name="consent" value="yes" required />
+          <label for="yes">Согласен</label>
+
+          <input type="radio" id="no" name="consent" value="no" />
+          <label for="no">Не согласен</label>
+        </fieldset>
 
         <p>
           <button type="submit">Отправить</button>
